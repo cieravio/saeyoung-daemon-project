@@ -1,5 +1,5 @@
 use serde::Deserialize;
-use std::collection::HasMap;
+use std::collections::HashMap;
 use std::fs;
 use rand::seq::SliceRandom;
 

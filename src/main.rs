@@ -7,5 +7,5 @@ use dialogues::Dialogues;
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
     let dialogues = Dialogues::load("dialogues.json");
-    server::run("0.0.0.0:707", dialogues.await)
+    server::run("0.0.0.0:707", dialogues).await
 }
